@@ -1,0 +1,25 @@
+name: MinetopiaATM
+version: 3.4
+main: karsten.ATM.main.Main
+description: MinetopiaATM V3.4 - Made by karsten (HenkDeKipGaming)
+
+commands:
+  rekening:
+    usage: /<command>
+    description: Rekening command.
+  baan:
+    usage: /<command>
+    description: baan command.
+  atm:
+    usage: /<command>
+    description: atm command.
+  minetopia:
+    usage: /<command>
+    description: minetopia command.
+  rank:
+    usage: /<command>
+    description: rank command.
+permissions:
+  atm.command:
+    description: Admin minetopia command
+    default: op
